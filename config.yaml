@@ -1,0 +1,42 @@
+DefaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    baseUrl: http://englishExample.com
+    contentDir: content/en
+    languageName: English
+    title: My blog
+    weight: 1
+    menu:
+      main:
+      - identifier: home
+        name: Home
+        url: /
+        weight: 1
+      - identifier: blog
+        name: Blog
+        url: /blog/
+        weight: 2
+      
+  fr:
+    baseUrl: http://francaisExample.com
+    contentDir: content/fr
+    languageName: Francais
+    params:
+      navigation:
+        help: Aide
+    title: Mon blogue
+    weight: 2
+    menu:
+      main:
+      - identifier: home
+        name: Home
+        url: /
+        weight: 1
+      - identifier: blogue
+        name: blogue
+        url: /blogue/
+        weight: 2
+params:
+  navigation:
+    help: "Help"

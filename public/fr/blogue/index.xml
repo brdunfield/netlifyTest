@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mon blogue</title>
+    <link>http://francaisExample.com/blogue/</link>
+    <description>Recent content on Mon blogue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 12 Aug 2016 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://francaisExample.com/blogue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ma Premier Poste</title>
+      <link>http://francaisExample.com/blogue/posts/ma-premier-poste/</link>
+      <pubDate>Fri, 12 Aug 2016 18:00:00 +0000</pubDate>
+      
+      <guid>http://francaisExample.com/blogue/posts/ma-premier-poste/</guid>
+      <description>Content En Francais</description>
+    </item>
+    
+  </channel>
+</rss>
