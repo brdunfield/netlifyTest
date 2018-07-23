@@ -33,6 +33,20 @@
   </url>
   
   <url>
+    <loc>http://englishExample.com/work-with-us/work-with-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://francaisExample.com/work-with-us/work-with-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://englishExample.com/work-with-us/work-with-us/"
+                />
+  </url>
+  
+  <url>
     <loc>http://englishExample.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -75,20 +89,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://englishExample.com/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://englishExample.com/work-with-us/work-with-us/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://francaisExample.com/work-with-us/work-with-us/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://englishExample.com/work-with-us/work-with-us/"
                 />
   </url>
   
