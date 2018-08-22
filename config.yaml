@@ -2,7 +2,7 @@ DefaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
   en:
-    baseUrl: http://englishExample.com
+    baseUrl: https://quirky-hamilton-beecc7.netlify.com/en
     contentDir: content/en
     languageName: English
     title: My blog
@@ -19,7 +19,7 @@ languages:
         weight: 2
       
   fr:
-    baseUrl: http://francaisExample.com
+    baseUrl: https://quirky-hamilton-beecc7.netlify.com/fr
     contentDir: content/fr
     languageName: Francais
     params:
