@@ -25,3 +25,24 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "TranslationKey", name: "translationKey", widget: "string"}
+  - name: "data"
+    label: "Data Files"
+    files:
+      - label: "skjnxckjxn"
+        file: "i18n/en.yaml"
+        fields:
+        - label: test
+          fields:
+            - {label: other, widget: string}
+        - label: blog
+          fields:
+            - {label: other, widget: string}
+      - label: "why duplicate"
+        file: "i18n/fr.yaml"
+        fields:
+        - label: test
+          fields:
+            - {label: other, widget: string}
+        - label: blog
+          fields:
+            - {label: other, widget: string}
