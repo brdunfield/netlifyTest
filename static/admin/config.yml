@@ -54,7 +54,7 @@ collections:
               - {label: other, widget: string}
       - label: "Team"
         name: "team"
-        file: "data/team.yaml"
+        file: "data/team.yml"
         fields:
           - label: exec
             name: exec
