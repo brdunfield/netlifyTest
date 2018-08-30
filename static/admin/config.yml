@@ -25,24 +25,49 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "TranslationKey", name: "translationKey", widget: "string"}
-  - name: "data"
+  - name: "datafiles"
     label: "Data Files"
     files:
-      - label: "skjnxckjxn"
+      - label: "i18n English"
+        name: "i18nEn"
         file: "i18n/en.yaml"
         fields:
-        - label: test
-          fields:
+          - label: test
+            name: test
+            fields:
             - {label: other, widget: string}
-        - label: blog
-          fields:
+          - label: blog
+            name: blog
+            fields:
             - {label: other, widget: string}
-      - label: "why duplicate"
+      - label: "i18n Francais"
+        name: "i18nFr"
         file: "i18n/fr.yaml"
         fields:
-        - label: test
-          fields:
-            - {label: other, widget: string}
-        - label: blog
-          fields:
-            - {label: other, widget: string}
+          - label: test
+            name: test
+            fields:
+              - {label: other, widget: string}
+          - label: blog
+            name: blog
+            fields:
+              - {label: other, widget: string}
+      - label: "Team"
+        name: "team"
+        file: "data/team.yaml"
+        fields:
+          - label: exec
+            name: exec
+            fields:
+              - {label: name, name: name, widget: text}
+              - label: title
+                name: title
+                fields:
+                  - {label: en, name: en, widget: text}
+                  - {label: fr, name: fr, widget: text}
+              - {label: image-name, name: image-name, widget: image}
+              - {label: twitter, name: twitter, widget: text}
+              - {label: linkedin, name: linkedin, widget: text}
+              - {label: email, name: email, widget: text}
+              - {label: github, name: github, widget: text}
+
